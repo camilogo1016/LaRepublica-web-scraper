@@ -1,0 +1,11 @@
+Links = //h2/a/@href
+Titulo = //div[@class="mb-auto"]/h2/a/text()
+Resumen = //div[@class="lead"]/p/text()
+Cuerpo = //div[@class="html-content"]/p/text()
+
+REEMPLAZAR LOS 'H2' POR 'text-fill'.
+
+Links = //text-fill/a/@href
+Titulo = //div[@class="mb-auto"]/text-fill/a/text()
+Resumen = //div[@class="lead"]/p/text()
+Cuerpo = //div[@class="html-content"]/p/text()
